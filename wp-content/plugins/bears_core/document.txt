@@ -1,0 +1,7 @@
+/* How to include file options in theme */
+if( function_exists( 'bcore_redux_setup' ) ) {
+	bcore_redux_setup( $file_option );
+}
+
+/* This is your option name where all the Redux data is stored. */
+$opt_name = "bearstheme_options";

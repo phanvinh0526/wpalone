@@ -1,0 +1,24 @@
+# Version 1.1.7
++ Update shortcode [bears_blog] add tab css
++ Fix javascript string base46
+
+# Version 1.1.6
++ Update func tbbs_register_scripts
+
+# Version 1.1.5
++ Fix shortcode [bears_masonry] lightbox image lib inc
+
+# Version 1.1.4
++ Fix shortcode [bears_single_product_slider] zoom image
+
+# Version 1.1.3
++ Update shortcode [bears_purchaseref]
+
+# Version 1.1.2
++ Fix shortcode bears_masonry IE 11
+
+# Version 1.1.1
++ Fix path include plugin-update-checker-3.1 
++ Shortcode bears_block add tab css
++ Update field type Imagesize
++ More shortcode bears_clientlogo

@@ -1,0 +1,131 @@
+@padding-h: 25px;
+@padding-v: 12px;
+
+.bt-btn {
+    .easing-animation;
+    display: inline-block;
+    padding: @padding-v @padding-h;
+	.bt-default-font-main;
+    font-size: @font-size-6;
+	font-weight: 700;
+    outline: none;
+	letter-spacing: 0.04em;
+    word-spacing: 2px;
+    line-height: 19.2px;
+    text-align: center;
+    background-color: transparent;
+	border: 0;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.bt-btn-bd(@thick, @bd-color) {
+    .bt-btn;
+    padding: (@padding-v - @thick) (@padding-h - @thick);
+    border: @thick solid @bd-color;
+}
+
+.bt-btn-main {
+	.bt-btn-bd(2px, @main-color);
+	font-size: @font-size-9;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	text-transform: uppercase;
+	color: @light-color;
+	background: @main-color;
+	padding: 15px 27px;
+	&:hover, &:focus, &:active {
+		color: @main-color;
+		background: transparent;
+	}
+}
+.bt-btn-lager-main {
+	.bt-btn-bd(2px, @main-color);
+	font-size: @font-size-7;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	white-space: nowrap;
+	text-transform: uppercase;
+	color: @light-color;
+	background: @main-color;
+	padding: 18px 30px;
+	&:hover, &:focus, &:active {
+		color: @main-color;
+		background: transparent;
+	}
+	
+}
+
+.bt-btn-bd-main {
+	.bt-btn-bd(2px, @main-color);
+	font-size: @font-size-9;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	text-transform: uppercase;
+	color: @main-color;
+	background-color: transparent;
+	padding: 15px 27px;
+	&:hover, &:focus, &:active {
+		color: @light-color;
+		background-color: @main-color;
+	}
+}
+
+.bt-btn-square {
+    .easing-animation;
+    display: inline-block;
+    padding: @padding-v @padding-h;
+	.bt-font-ubuntu;
+    font-size: 13px;
+	font-weight: 700;
+    outline: none;
+	letter-spacing: 0.04em;
+    line-height: 20.48px;
+    text-align: center;
+    background-color: transparent;
+	border: 0;
+}
+
+.bt-btn-bd-square(@thick, @bd-color) {
+    .bt-btn-square;
+    padding: (@padding-v - @thick) (@padding-h - @thick);
+    border: @thick solid @bd-color;
+}
+
+.bt-btn-white-square {
+	.bt-btn-bd-square(2px, @light-color);
+	font-size: @font-size-7;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: @main-color;
+	background: @light-color;
+	padding: 15px 35px;
+	&:hover, &:focus, &:active {
+		color: @light-color;
+		background: @main-color;
+		border-color: @main-color;
+	}
+}
+
+.bt-btn-main-square {
+	.bt-btn-bd-square(2px, @main-color);
+	color: #ffffff;
+	background: @main-color;
+	&:hover {
+		color: @main-color;
+		background: transparent;
+	}
+}
+
+.bt-fancybox-wrap a {
+	img {
+		width: auto;
+		height: auto;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
+}

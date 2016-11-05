@@ -1,0 +1,92 @@
+.redux-section-desc{
+	text-align: center;
+}
+.bcore-block-accordion{
+	margin-bottom: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.bcore-block-accordion-body.table-ui{
+	width: 500px;
+	margin: 0 auto;
+	border: solid #333;
+	border-width: 0 1px 1px 1px;
+}
+.bcore-block-accordion .title i{
+	margin-right: 4px;
+}
+.bcore-block-accordion .title{
+	background: #333 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 8px;
+    width: 486px;
+    margin: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: left;
+}
+.table-row.item-header{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.bcore-block-accordion .table-row span.val.requirements{
+	// font-weight: bold;
+}
+.bcore-block-accordion .table-row{
+	display: inline-block;
+    font-size: 10px;
+    padding: 4px 8px;
+    vertical-align: top;
+    width: calc(100% - 16px);
+    text-align: left;
+}
+.bcore-block-accordion .table-row:nth-child(even){
+	background: #f8f8f8;
+}
+.bcore-block-accordion .table-row label,
+.bcore-block-accordion .table-row span,
+.bcore-block-accordion .table-row i{
+	display: inline-block;
+	vertical-align: middle;
+}
+.bcore-block-accordion .table-row label{
+	text-transform: uppercase;
+	min-width: 220px;
+}
+.bcore-block-accordion .table-row span.val{
+	min-width: 100px;
+}
+.bcore-block-accordion .color-green{
+	color: green;
+}
+.bcore-block-accordion .color-red{
+	color: red;
+}
+.bcore-btn-create{
+	line-height: normal;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: none;
+}
+.bcore-btn-create i{
+	margin-right: 4px;
+}
+.bt-backup-database label{
+	text-transform: none !important;
+}
+@-webkit-keyframes ajaxhandle{
+	from { opacity: 1; }
+	to { opacity: .3; }
+}
+@keyframes ajaxhandle{
+	from { opacity: 1; }
+	to { opacity: .3; }
+}
+.bcore-ajax-loading{
+	animation: ajaxhandle infinite .8s alternate-reverse;
+	-webkit-animation: ajaxhandle infinite .8s alternate-reverse;
+	pointer-events: none;
+}
